@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dr-kaviyas-k-smile-dentistry.vercel.app
+
+# Sitemaps
+Sitemap: https://dr-kaviyas-k-smile-dentistry.vercel.app/sitemap.xml

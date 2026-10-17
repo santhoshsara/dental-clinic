@@ -9,6 +9,7 @@ import BeforeAfterSlider from "./components/sections/BeforeAfterSlider";
 import DoctorProfile from "./components/sections/DoctorProfile";
 import WhyChooseUs from "./components/sections/WhyChooseUs";
 import ReviewsSection from "./components/sections/ReviewsSection";
+import FaqSection from "./components/sections/FaqSection";
 import ServiceDetailModal from "./components/sections/ServiceDetailModal";
 import AppointmentModal from "./components/sections/AppointmentModal";
 import { MessageSquare, Phone, Calendar } from "lucide-react";
@@ -61,6 +62,9 @@ export default function App() {
 
       {/* Patient Reviews Carousel */}
       <ReviewsSection />
+
+      {/* Frequently Asked Questions (Structured SEO & Patient Clarity) */}
+      <FaqSection onOpenBooking={() => handleOpenBooking(null)} />
 
       {/* Comprehensive Clinic Footer */}
       <Footer onOpenBooking={() => handleOpenBooking(null)} />

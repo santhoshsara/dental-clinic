@@ -2,17 +2,237 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Dr. Kaviya's K Smile - Premier Dentistry & Medical Cosmetology Clinic in Keelkattalai, Tambaram. Hydrafacial, Chemical Peels, Botox, Fillers, Jawline Shaping, GFC Hair Therapy, Aligners & Dental Implants." />
-    <meta name="keywords" content="dentistry, cosmetology, hydrafacial, chemical peel, botox, fillers, jawline shaping, gfc hair therapy, clear aligners, dental implants, keelkattalai, dr kaviya" />
     
+    <!-- Primary Page Title & Meta Description -->
+    <title>Dr. Kaviya's K Smile | Best Dentistry & Medical Cosmetology Clinic Keelkattalai, Tambaram</title>
+    <meta name="description" content="Dr. Kaviya's K Smile - Premier Dual-Specialty Clinic in Keelkattalai, Tambaram, Chennai. Invisible Aligners, Painless Root Canals, Implants, Medical Hydrafacial, Botox, Fillers & GFC Hair Restoration." />
+    <meta name="keywords" content="dentist keelkattalai, dental clinic tambaram, dr kaviya k smile, medical cosmetology chennai, clear aligners chennai, painless root canal keelkattalai, dental implants tambaram, hydrafacial keelkattalai, chemical peels chennai, botox keelkattalai, masseter slimming, dermal fillers chennai, gfc hair therapy, best dentist in keelkattalai" />
+    <meta name="author" content="Dr. Kaviya (BDS, Certified Facial Aesthetician)" />
+    <meta name="publisher" content="Dr. Kaviya's K Smile" />
+
+    <!-- Canonical URL (Self-referencing for SEO - eliminates duplicate hash fragments) -->
+    <link rel="canonical" href="https://dr-kaviyas-k-smile-dentistry.vercel.app/" />
+
+    <!-- Search Engine Crawling Directives -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <!-- Google Search Console Verification Token Slot (Replace with your GSC HTML token) -->
+    <!-- Example: <meta name="google-site-verification" content="YOUR_TOKEN_HERE" /> -->
+    <meta name="google-site-verification" content="" />
+
+    <!-- Local SEO Geo-Targeting (Keelkattalai / Tambaram, Chennai, India) -->
+    <meta name="geo.region" content="IN-TN" />
+    <meta name="geo.placename" content="Keelkattalai, Tambaram, Chennai, Tamil Nadu" />
+    <meta name="geo.position" content="12.9565;80.1852" />
+    <meta name="ICBM" content="12.9565, 80.1852" />
+
+    <!-- Open Graph (OG) / Facebook / WhatsApp / LinkedIn Social Sharing -->
+    <meta property="og:type" content="business.business" />
+    <meta property="og:site_name" content="Dr. Kaviya's K Smile" />
+    <meta property="og:title" content="Dr. Kaviya's K Smile | Dentistry & Medical Cosmetology Clinic" />
+    <meta property="og:description" content="Premier Dual-Specialty Clinic in Keelkattalai, Tambaram. Invisible Aligners, Painless Root Canals, Dental Implants, Medical Hydrafacials, Botox, Fillers & GFC Hair Growth." />
+    <meta property="og:url" content="https://dr-kaviyas-k-smile-dentistry.vercel.app/" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:image" content="https://dr-kaviyas-k-smile-dentistry.vercel.app/images/cosmetology_dentistry_luxury_1792117200797.jpg" />
+    <meta property="og:image:secure_url" content="https://dr-kaviyas-k-smile-dentistry.vercel.app/images/cosmetology_dentistry_luxury_1792117200797.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Dr. Kaviya's K Smile Luxury Dentistry & Cosmetology Clinic" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dr. Kaviya's K Smile | Dentistry & Medical Cosmetology Clinic" />
+    <meta name="twitter:description" content="Premier Dual-Specialty Clinic in Keelkattalai, Tambaram. Invisible Aligners, Dental Implants, Hydrafacials, Botox, Fillers & Hair Restoration." />
+    <meta name="twitter:image" content="https://dr-kaviyas-k-smile-dentistry.vercel.app/images/cosmetology_dentistry_luxury_1792117200797.jpg" />
+
+    <!-- Favicon, App Icons & Web Manifest -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0F172A" />
+
     <!-- Google Fonts: Plus Jakarta Sans & Playfair Display -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <title>Dr. Kaviya's K Smile | Advanced Dentistry & Medical Cosmetology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data (JSON-LD): Clinic Local Business & Medical Practitioner Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["Dentist", "MedicalClinic", "HealthAndBeautyBusiness"],
+          "@id": "https://dr-kaviyas-k-smile-dentistry.vercel.app/#clinic",
+          "name": "Dr. Kaviya's K Smile - Dentistry & Medical Cosmetology Clinic",
+          "alternateName": "K Smile Dentistry & Cosmetology",
+          "description": "Leading dual-specialty clinic in Keelkattalai, Tambaram, Chennai offering advanced dentistry, invisible aligners, dental implants, painless root canals, and medical cosmetology treatments.",
+          "url": "https://dr-kaviyas-k-smile-dentistry.vercel.app/",
+          "telephone": "+917550148683",
+          "priceRange": "₹₹",
+          "image": "https://dr-kaviyas-k-smile-dentistry.vercel.app/images/cosmetology_dentistry_luxury_1792117200797.jpg",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1/2, Velmurugan Colony Rd, behind Pantaloons, Arunachalam Nagar",
+            "addressLocality": "Keelkattalai, Tambaram",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "600117",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 12.9565,
+            "longitude": 80.1852
+          },
+          "hasMap": "https://maps.app.goo.gl/Yt1tD7d8MSrVqtos5",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "08:00",
+              "closes": "19:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Saturday"],
+              "opens": "09:00",
+              "closes": "14:00"
+            }
+          ],
+          "medicalSpecialty": [
+            "Dentistry",
+            "Orthodontics",
+            "Periodontics",
+            "CosmeticDermatology"
+          ],
+          "founder": {
+            "@type": "Person",
+            "name": "Dr. Kaviya",
+            "jobTitle": "Dental Surgeon & Certified Clinical Aesthetic Cosmetologist",
+            "credential": "BDS | Fellow in Medical Cosmetology"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Dentistry & Cosmetology Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Invisible Clear Aligners",
+                  "description": "Custom 3D transparent aligners for discreet, comfortable orthodontic smile correction."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Precision Dental Implants",
+                  "description": "Biocompatible titanium tooth replacement implants with lifelike zirconia crowns."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Painless Single-Sitting Root Canal Therapy",
+                  "description": "Advanced digital rotary endodontics preserving natural teeth with zero pain."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Medical Hydrafacial",
+                  "description": "Deep clinical pore cleansing, vacuum extraction, and peptide hydration infusion."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Botox & Masseter Jawline Slimming",
+                  "description": "Targeted facial aesthetics for wrinkle smoothing and facial contour slimming."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Dermal Fillers",
+                  "description": "Natural lip augmentation, cheek sculpting, and nasolabial fold smoothing."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "GFC & PRP Hair Restoration Therapy",
+                  "description": "Acellular autologous growth factor concentrate therapy for hair density."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://dr-kaviyas-k-smile-dentistry.vercel.app/#website",
+          "url": "https://dr-kaviyas-k-smile-dentistry.vercel.app/",
+          "name": "Dr. Kaviya's K Smile",
+          "description": "Where Clinical Dental Precision Meets Advanced Facial Artistry"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://dr-kaviyas-k-smile-dentistry.vercel.app/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Where is Dr. Kaviya's K Smile clinic located?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dr. Kaviya's K Smile Dentistry & Medical Cosmetology Clinic is located at 1/2, Velmurugan Colony Rd, behind Pantaloons, Arunachalam Nagar, Keelkattalai, Tambaram, Tamil Nadu 600117. We are centrally located for patients across Keelkattalai, Tambaram, Madipakkam, and Chromepet."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What treatments are offered at Dr. Kaviya's K Smile?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We provide dual-specialty care: Advanced Dentistry (Clear Aligners, Dental Implants, Painless Root Canals, Laser Teeth Whitening, Pediatric Care) and Medical Cosmetology (Hydrafacial, Chemical Peels, Botox & Masseter Slimming, Dermal Fillers, and GFC/PRP Hair Loss Therapy)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Root Canal Treatment painless at K Smile?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, our clinic utilizes rotary endodontics, computerized digital apex locators, and localized anesthesia techniques ensuring the procedure is comfortable, gentle, and virtually pain-free."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is GFC Hair Therapy and how does it compare to standard PRP?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Growth Factor Concentrate (GFC) is an advanced regenerative therapy prepared from your own blood. Unlike traditional PRP, GFC is cell-free, highly concentrated with pure growth factors (PDGF, VEGF, EGF, IGF-1), and delivers faster, thicker hair regrowth with zero downtime."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can I book an appointment with Dr. Kaviya?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can book directly using the online consultation button on this website, call +91 7550148683, or click to chat directly on WhatsApp."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

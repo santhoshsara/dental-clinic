@@ -1,0 +1,17 @@
+{
+  "short_name": "K Smile",
+  "name": "Dr. Kaviya's K Smile Dentistry & Medical Cosmetology",
+  "description": "Premier dentistry and medical cosmetology clinic in Keelkattalai, Tambaram, Chennai.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "48x48 72x72 96x96 128x128 256x256 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "display": "standalone",
+  "scope": "/"
+}

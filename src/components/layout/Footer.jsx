@@ -47,6 +47,7 @@ export default function Footer({ onOpenBooking }) {
               <li><a href="#services">GFC & PRP Hair Growth Therapy</a></li>
               <li><a href="#services">Clear Aligners & Dental Implants</a></li>
               <li><a href="#services">Painless Root Canal Therapy</a></li>
+              <li><a href="#faq">Frequently Asked Questions (FAQ)</a></li>
             </ul>
           </div>
 

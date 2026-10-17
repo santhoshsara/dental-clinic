@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://dr-kaviyas-k-smile-dentistry.vercel.app/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://dr-kaviyas-k-smile-dentistry.vercel.app/images/cosmetology_dentistry_luxury_1792117200797.jpg</image:loc>
+      <image:title>Dr. Kaviya's K Smile Dentistry &amp; Medical Cosmetology Clinic Keelkattalai Tambaram Chennai</image:title>
+      <image:caption>Premier dental and medical cosmetology clinic in Keelkattalai, Tambaram, Chennai</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dr-kaviyas-k-smile-dentistry.vercel.app/images/dental_aligners_1791040893689.jpg</image:loc>
+      <image:title>Invisible Clear Aligners - Dr. Kaviya's K Smile</image:title>
+      <image:caption>Modern 3D clear aligners orthodontic smile alignment</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dr-kaviyas-k-smile-dentistry.vercel.app/images/dental_implant_1791040880265.jpg</image:loc>
+      <image:title>Precision Dental Implants - Dr. Kaviya's K Smile</image:title>
+      <image:caption>Biocompatible lifelong tooth replacement implants</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dr-kaviyas-k-smile-dentistry.vercel.app/images/cosmetology_hydrafacial_1792117085722.jpg</image:loc>
+      <image:title>Medical Hydrafacial Treatment - Dr. Kaviya's K Smile</image:title>
+      <image:caption>Clinical deep pore extraction and infusion hydration facial</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://dr-kaviyas-k-smile-dentistry.vercel.app/images/cosmetology_hair_therapy_1792117127106.jpg</image:loc>
+      <image:title>GFC and PRP Hair Regrowth Therapy</image:title>
+      <image:caption>Advanced growth factor concentrate hair restoration therapy</image:caption>
+    </image:image>
+  </url>
+</urlset>

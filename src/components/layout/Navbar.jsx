@@ -44,7 +44,8 @@ export default function Navbar({ onOpenBooking }) {
     { label: "Synergy", href: "#synergy", badge: null },
     { label: "Meet Dr. Kaviya", href: "#doctor", badge: null },
     { label: "Results", href: "#transformations", badge: null },
-    { label: "Reviews", href: "#reviews", badge: "5.0 ★" }
+    { label: "Reviews", href: "#reviews", badge: "5.0 ★" },
+    { label: "FAQ", href: "#faq", badge: null }
   ];
 
   const drawerLinks = [
@@ -83,6 +84,12 @@ export default function Navbar({ onOpenBooking }) {
       href: "#reviews",
       icon: "⭐",
       desc: "5.0 Rated Across 120+ Patients"
+    },
+    {
+      label: "Frequently Asked Questions",
+      href: "#faq",
+      icon: "💬",
+      desc: "Common Patient Queries & Care"
     }
   ];
 
